@@ -13,8 +13,8 @@ const view = (state, { updateState }) => {
         cropRadius: 159,
         drawEnabled: true,
         elements: [],
-        deviceImage: "https://dl4.service-now.com/sys_attachment.do?sys_id=fa23d21ac39b291072397fef050131c1",
-        url: "https://dl4.service-now.com/sys_attachment.do?sys_id=6106561e873431108da155373cbb35eb",
+        deviceImage: "/sys_attachment.do?sys_id=fa23d21ac39b291072397fef050131c1",
+        url: "/sys_attachment.do?sys_id=6106561e873431108da155373cbb35eb",
         type: "screenshot",
         // maxWidth: 500,
         // maxHeight: 500
