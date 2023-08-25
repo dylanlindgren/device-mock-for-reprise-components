@@ -1,0 +1,31 @@
+{
+	"name": "@snc-wds/device-mock-components",
+	"version": "0.0.1",
+	"private": false,
+	"description": "",
+	"keywords": [
+		"ServiceNow",
+		"Now Experience UI Component",
+		"@snc-wds/device-mock-components"
+	],
+	"readme": "./README.md",
+	"engines": {
+		"node": ">=8.6.0",
+		"npm": ">=5.3.0"
+	},
+	"module": "src/index.js",
+	"dependencies": {
+		"@servicenow/cli-archetype": "utah",
+		"@servicenow/cli-component-archetype": "utah",
+		"@servicenow/library-translate": "rome",
+		"@servicenow/now-button": "^19.8.2-ecd",
+		"@servicenow/sass-kit": "rome",
+		"@servicenow/sass-theme": "rome",
+		"@servicenow/ui-core": "rome",
+		"@servicenow/ui-renderer-snabbdom": "rome"
+	},
+	"devDependencies": {
+		"@servicenow/cli-archetype-dev": "utah",
+		"@servicenow/cli-component-archetype-dev": "utah"
+	}
+}

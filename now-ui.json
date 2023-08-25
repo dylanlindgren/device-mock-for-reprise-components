@@ -1,0 +1,142 @@
+{
+	"components": {
+		"snc-wds-mmc-device-md-box": {},
+		"snc-wds-mmc-device-iframe": {},
+		"snc-wds-mmc-device-screenshot": {},
+		"snc-wds-mmc-device": {
+			"uiBuilder": {
+				"associatedTypes": ["global.core"],
+				"label": "Device Mock for Reprise",
+				"icon": "chart-forecast-fill",
+				"description": "Mock a device to allow it to be captured in Reprise"
+			},
+			"innerComponents": [
+				"now-button-iconic",
+				"snc-wds-mmc-device-md-box",
+				"snc-wds-mmc-device-iframe",
+				"snc-wds-mmc-device-screenshot"
+			],
+			"actions": [{
+				"name": "SNC_WDS_MMC_DEVICE#LOAD_COMPLETED",
+				"description": "[Mock for Reprise] Loading completed"
+			}, {
+				"name": "SNC_WDS_MMC_DEVICE#KEY_RIGHT_PRESSED",
+				"description": "[Mock for Reprise] Right key pressed"
+			}, {
+				"name": "SNC_WDS_MMC_DEVICE#KEY_LEFT_PRESSED",
+				"description": "[Mock for Reprise] Left key pressed"
+			}, {
+				"name": "SNC_WDS_MMC_DEVICE#ESCAPE_PRESSED",
+				"description": "[Mock for Reprise] Escape key pressed"
+			}, {
+				"name": "SNC_WDS_MMC_DEVICE#ELEMENTS_UPDATED",
+				"description": "[Mock for Reprise] Elements updated"
+			}, {
+				"name": "SNC_WDS_MMC_DEVICE#ELEMENT_DELETED",
+				"description": "[Mock for Reprise] Element deleted"
+			}],
+			"properties": [{
+					"name": "height",
+					"label": "Height",
+					"readOnly": false,
+					"required": true,
+					"fieldType": "number",
+					"defaultValue": null
+				},
+				{
+					"name": "width",
+					"label": "Width",
+					"readOnly": false,
+					"fieldType": "number",
+					"required": true,
+					"defaultValue": null
+				},
+				{
+					"name": "offset-x",
+					"label": "Offset X",
+					"readOnly": false,
+					"fieldType": "number",
+					"required": true,
+					"defaultValue": 0
+				},
+				{
+					"name": "offset-y",
+					"label": "Offset Y",
+					"readOnly": false,
+					"fieldType": "number",
+					"required": true,
+					"defaultValue": 0
+				},
+				{
+					"name": "crop-radius",
+					"label": "Crop radius",
+					"readOnly": false,
+					"fieldType": "number",
+					"required": true,
+					"defaultValue": 0
+				}, {
+					"name": "device-offset-top",
+					"label": "Device offset (top)",
+					"readOnly": false,
+					"fieldType": "number",
+					"required": true,
+					"defaultValue": 0
+				},
+				{
+					"name": "device-image",
+					"label": "Device image URL",
+					"readOnly": false,
+					"fieldType": "URL",
+					"required": true,
+					"defaultValue": ""
+				},
+				{
+					"name": "url",
+					"label": "URL",
+					"readOnly": false,
+					"fieldType": "URL",
+					"required": true,
+					"defaultValue": ""
+				}, {
+					"name": "draw-enabled",
+					"label": "Drawing enabled",
+					"readOnly": false,
+					"fieldType": "Boolean",
+					"required": true,
+					"defaultValue": true
+				},
+				{
+					"name": "elements",
+					"label": "Elements",
+					"readOnly": false,
+					"fieldType": "JSON",
+					"required": true,
+					"defaultValue": []
+				},
+				{
+					"name": "type",
+					"label": "Type",
+					"readOnly": false,
+					"fieldType": "string",
+					"required": true,
+					"defaultValue": []
+				},{
+					"name": "max-height",
+					"label": "Max height",
+					"readOnly": false,
+					"fieldType": "number",
+					"required": false,
+					"defaultValue": null
+				},{
+					"name": "max-width",
+					"label": "Max width",
+					"readOnly": false,
+					"fieldType": "number",
+					"required": false,
+					"defaultValue": null
+				}
+			]
+		}
+	},
+	"scopeName": "x_snc_mer_c"
+}

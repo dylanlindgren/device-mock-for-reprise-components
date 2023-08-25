@@ -1,0 +1,59 @@
+@import '@servicenow/sass-kit/host';
+@import '@servicenow/sass-utility/index';
+
+:host {
+    display: inline-block;
+    position: relative;
+    height: 90vh;
+}
+
+.deviceContainer, .device {
+    height: 100%;
+    width: 100%;
+}
+
+.deviceContainer {
+    container-type: normal;
+    position: relative;
+}
+
+.device {
+    z-index: 110;
+    pointer-events: none;
+    position: relative;
+}
+
+.screen {
+    position: absolute;
+    z-index: 101;
+    overflow: hidden;
+}
+
+/*
+
+:host {
+    display: inline-block;
+    position: relative;
+    height: 90vh;
+}
+
+.deviceContainer, .device {
+    height: 100%;
+}
+
+.deviceContainer {
+    container-type: normal;
+}
+
+.device {
+    z-index: 100;
+    position: relative;
+}
+
+.screen {
+    position: absolute;
+    z-index: 110;
+    overflow: hidden;
+}
+
+*/

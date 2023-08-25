@@ -1,0 +1,18 @@
+@import '@servicenow/sass-kit/host';
+
+:host {
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.iframeContainer, iframe {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+iframe {
+    border: 0;
+}

@@ -1,0 +1,49 @@
+@import '@servicenow/sass-kit/host';
+
+:host {
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.screenContainer {
+    height: 100%;
+    display: relative;
+}
+
+.drawBox,
+.draw,
+.drawnElements {
+    position: absolute;
+}
+
+.drawnElements {
+    z-index: 201;
+    pointer-events: none;
+    height: 100%;
+    width: 100%;
+}
+
+.draw {
+    z-index: 200;
+    cursor: crosshair;
+    height: 100%;
+    width: 100%;
+}
+
+.screenshot {
+    position: absolute;
+    z-index: 99;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.drawBoxColor {
+    background-color: rgba(255,0,0,0.2);
+    box-shadow: 0 0 8px rgba(200,200,200,1);
+    outline: dashed 2px rgba(255,0,0,1);
+    outline-offset: -2px;
+    border-radius: var(--now-button--iconic--border-radius, var(--now-button--border-radius, var(--now-actionable--border-radius,0)));
+}
