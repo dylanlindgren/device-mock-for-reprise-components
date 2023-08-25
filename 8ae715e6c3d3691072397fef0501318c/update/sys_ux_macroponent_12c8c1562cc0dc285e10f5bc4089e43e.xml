@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types>d8899a0473000010f7353c78caf6a750</associated_types>
+        <bundles/>
+        <category>component</category>
+        <component_dependencies/>
+        <composition>[
+    
+]</composition>
+        <da_relay_models/>
+        <data/>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends/>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings/>
+        <layout>{}</layout>
+        <macroponent_dependencies/>
+        <name>Device Mock for Reprise</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "defaultValue": null,
+        "fieldType": "number",
+        "label": "Height",
+        "mandatory": true,
+        "name": "height",
+        "readOnly": false,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "number",
+        "label": "Width",
+        "mandatory": true,
+        "name": "width",
+        "readOnly": false,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": 0,
+        "fieldType": "number",
+        "label": "Offset X",
+        "mandatory": true,
+        "name": "offset-x",
+        "readOnly": false,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": 0,
+        "fieldType": "number",
+        "label": "Offset Y",
+        "mandatory": true,
+        "name": "offset-y",
+        "readOnly": false,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": 0,
+        "fieldType": "number",
+        "label": "Crop radius",
+        "mandatory": true,
+        "name": "crop-radius",
+        "readOnly": false,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": 0,
+        "fieldType": "number",
+        "label": "Device offset (top)",
+        "mandatory": true,
+        "name": "device-offset-top",
+        "readOnly": false,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "fieldType": "URL",
+        "label": "Device image URL",
+        "mandatory": true,
+        "name": "device-image",
+        "readOnly": false,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "fieldType": "URL",
+        "label": "URL",
+        "mandatory": true,
+        "name": "url",
+        "readOnly": false,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": true,
+        "fieldType": "Boolean",
+        "label": "Drawing enabled",
+        "mandatory": true,
+        "name": "draw-enabled",
+        "readOnly": false,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": [
+            
+        ],
+        "fieldType": "JSON",
+        "label": "Elements",
+        "mandatory": true,
+        "name": "elements",
+        "readOnly": false,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": [
+            
+        ],
+        "fieldType": "string",
+        "label": "Type",
+        "mandatory": true,
+        "name": "type",
+        "readOnly": false,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "number",
+        "label": "Max height",
+        "mandatory": false,
+        "name": "max-height",
+        "readOnly": false,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": null,
+        "fieldType": "number",
+        "label": "Max width",
+        "mandatory": false,
+        "name": "max-width",
+        "readOnly": false,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component display_value="snc-wds-mmc-device">57f0efadc796768b5015d02b5dbbb085</root_component>
+        <root_component_config>{"height":"@context/height","width":"@context/width","offset-x":"@context/offset-x","offset-y":"@context/offset-y","crop-radius":"@context/crop-radius","device-offset-top":"@context/device-offset-top","device-image":"@context/device-image","url":"@context/url","draw-enabled":"@context/draw-enabled","elements":"@context/elements","type":"@context/type","max-height":"@context/max-height","max-width":"@context/max-width"}</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2023-08-24 08:30:46</sys_created_on>
+        <sys_id>12c8c1562cc0dc285e10f5bc4089e43e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Device Mock for Reprise</sys_name>
+        <sys_package display_value="@snc-wds/device-mock-components" source="x_snc_mer_c">8ae715e6c3d3691072397fef0501318c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="@snc-wds/device-mock-components">8ae715e6c3d3691072397fef0501318c</sys_scope>
+        <sys_update_name>sys_ux_macroponent_12c8c1562cc0dc285e10f5bc4089e43e</sys_update_name>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2023-08-24 08:30:46</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=12c8c1562cc0dc285e10f5bc4089e43e"/>
+</record_update>

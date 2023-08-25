@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="elements" label="Elements" language="en" table="var__m_sys_ux_lib_component_attr_fb319a48501f461fd8d3e965a4415a44">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>elements</element>
+            <help/>
+            <hint/>
+            <label>Elements</label>
+            <language>en</language>
+            <name>var__m_sys_ux_lib_component_attr_fb319a48501f461fd8d3e965a4415a44</name>
+            <plural>Elements</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dylan.lindgren</sys_created_by>
+            <sys_created_on>2023-06-21 12:40:48</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Elements</sys_name>
+            <sys_package display_value="@snc-wds/device-mock-components" source="x_snc_mer_c">8ae715e6c3d3691072397fef0501318c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="@snc-wds/device-mock-components">8ae715e6c3d3691072397fef0501318c</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_ux_lib_component_attr_fb319a48501f461fd8d3e965a4415a44_elements_en</sys_update_name>
+            <sys_updated_by>dylan.lindgren</sys_updated_by>
+            <sys_updated_on>2023-06-21 12:40:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

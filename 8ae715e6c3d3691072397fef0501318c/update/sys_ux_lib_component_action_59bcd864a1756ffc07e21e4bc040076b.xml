@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_lib_component_action">
+    <sys_ux_lib_component_action action="INSERT_OR_UPDATE">
+        <description>[Mock for Reprise] Element deleted</description>
+        <name>SNC_WDS_MMC_DEVICE#ELEMENT_DELETED</name>
+        <publisher display_value="snc-wds-mmc-device">57f0efadc796768b5015d02b5dbbb085</publisher>
+        <sys_class_name>sys_ux_lib_component_action</sys_class_name>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2023-08-24 08:30:45</sys_created_on>
+        <sys_id>59bcd864a1756ffc07e21e4bc040076b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SNC_WDS_MMC_DEVICE#ELEMENT_DELETED</sys_name>
+        <sys_package display_value="@snc-wds/device-mock-components" source="x_snc_mer_c">8ae715e6c3d3691072397fef0501318c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="@snc-wds/device-mock-components">8ae715e6c3d3691072397fef0501318c</sys_scope>
+        <sys_update_name>sys_ux_lib_component_action_59bcd864a1756ffc07e21e4bc040076b</sys_update_name>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2023-08-24 08:30:45</sys_updated_on>
+    </sys_ux_lib_component_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=59bcd864a1756ffc07e21e4bc040076b"/>
+</record_update>
