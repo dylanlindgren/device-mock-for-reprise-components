@@ -13,9 +13,9 @@
             <sys_created_on>2023-08-24 08:30:02</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Offset Y</sys_name>
-            <sys_package display_value="@snc-wds/device-mock-components" source="x_snc_mer_c">8ae715e6c3d3691072397fef0501318c</sys_package>
+            <sys_package display_value="Device Mock for Reprise (Components)" source="x_snc_mer_c">8ae715e6c3d3691072397fef0501318c</sys_package>
             <sys_policy/>
-            <sys_scope display_value="@snc-wds/device-mock-components">8ae715e6c3d3691072397fef0501318c</sys_scope>
+            <sys_scope display_value="Device Mock for Reprise (Components)">8ae715e6c3d3691072397fef0501318c</sys_scope>
             <sys_update_name>sys_documentation_var__m_sys_ux_lib_component_attr_57f0efadc796768b5015d02b5dbbb085_offset-y_en</sys_update_name>
             <sys_updated_by>dylan.lindgren</sys_updated_by>
             <sys_updated_on>2023-08-24 08:30:02</sys_updated_on>

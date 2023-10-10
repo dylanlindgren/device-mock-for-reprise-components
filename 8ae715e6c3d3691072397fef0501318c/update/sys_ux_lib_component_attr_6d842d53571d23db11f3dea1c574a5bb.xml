@@ -61,9 +61,9 @@
         <sys_created_on>2023-08-24 08:30:27</sys_created_on>
         <sys_id>6d842d53571d23db11f3dea1c574a5bb</sys_id>
         <sys_name>Type</sys_name>
-        <sys_package display_value="@snc-wds/device-mock-components" source="x_snc_mer_c">8ae715e6c3d3691072397fef0501318c</sys_package>
+        <sys_package display_value="Device Mock for Reprise (Components)" source="x_snc_mer_c">8ae715e6c3d3691072397fef0501318c</sys_package>
         <sys_policy/>
-        <sys_scope display_value="@snc-wds/device-mock-components">8ae715e6c3d3691072397fef0501318c</sys_scope>
+        <sys_scope display_value="Device Mock for Reprise (Components)">8ae715e6c3d3691072397fef0501318c</sys_scope>
         <sys_update_name>sys_ux_lib_component_attr_6d842d53571d23db11f3dea1c574a5bb</sys_update_name>
         <sys_updated_by>dylan.lindgren</sys_updated_by>
         <sys_updated_on>2023-08-24 08:30:28</sys_updated_on>
